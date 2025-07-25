@@ -1,0 +1,73 @@
+# Ignore MySQL runtime socket and volume data
+api-gateway/volume-data/
+*.sock
+
+# ========================================
+# Java & Spring Boot (Maven)
+# ========================================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# Local environment configs
+application-local.properties
+.env
+
+# Maven wrapper
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+mvnw
+mvnw.cmd
+
+# ========================================
+# IntelliJ IDEA
+# ========================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# ========================================
+# OS-specific
+# ========================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# ========================================
+# Docker
+# ========================================
+*.sock
+volume-data/
+docker-compose.override.yml
+
+# ========================================
+# Git
+# ========================================
+*.orig
+*.rej
+
+# ========================================
+# Logs & temp
+# ========================================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ========================================
+# Others
+# ========================================
+node_modules/
